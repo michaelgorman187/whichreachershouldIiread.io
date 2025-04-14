@@ -11,33 +11,14 @@
         <h1>Jack Reacher Book Series</h1>
     </header>
     <main>
-        <div id="books"></div>
+        <div id="books">
+            <!-- Books will be dynamically added here by JavaScript -->
+        </div>
     </main>
     <footer>
         <p>&copy; 2025 Jack Reacher Fan Page</p>
     </footer>
-
-    <script>
-        // Fetch the JSON data
-        fetch('reacher.json')
-            .then(response => response.json())
-            .then(data => {
-                const booksDiv = document.getElementById('books');
-
-                // Display the books
-                data.books.forEach(book => {
-                    const bookElement = document.createElement('div');
-                    bookElement.className = 'book';
-                    bookElement.innerHTML = `
-                        <h2>${book.title}</h2>
-                        <p><strong>Publication Date:</strong> ${book.publication_date}</p>
-                        <p><strong>Genre:</strong> ${book.genre}</p>
-                        <p><strong>Summary:</strong> ${book.summary}</p>
-                    `;
-                    booksDiv.appendChild(bookElement);
-                });
-            })
-            .catch(error => console.error('Error fetching the JSON:', error));
-    </script>
+    <script src="fetchReacherData.js"></script>
 </body>
 </html>
+
