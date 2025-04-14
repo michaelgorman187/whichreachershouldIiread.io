@@ -1,0 +1,36 @@
+{
+    "series": "Jack Reacher",
+    "author": "Lee Child",
+    "books": [
+      {
+        "title": "Killing Floor",
+        "publication_date": "1997",
+        "genre": "Thriller",
+        "summary": "Jack Reacher investigates a murder in the small town of Margrave, Georgia."
+      },
+      {
+        "title": "Die Trying",
+        "publication_date": "1998",
+        "genre": "Thriller",
+        "summary": "Reacher and a woman are kidnapped and must uncover the conspiracy behind their abduction."
+      },
+      {
+        "title": "Tripwire",
+        "publication_date": "1999",
+        "genre": "Thriller",
+        "summary": "Reacher is drawn into a dangerous investigation involving his mentor's daughter."
+      },
+      {
+        "title": "Running Blind",
+        "publication_date": "2000",
+        "genre": "Thriller",
+        "summary": "Reacher investigates a series of unsettling messages left for women who end up murdered."
+      },
+      {
+        "title": "Echo Burning",
+        "publication_date": "2001",
+        "genre": "Thriller",
+        "summary": "Reacher becomes entangled in a small Texan community's dark secrets."
+      }
+    ]
+  }
