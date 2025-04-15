@@ -23,9 +23,10 @@ fetch('reacher.json')
             bookElement.className = 'book';
             bookElement.innerHTML = `
                 <h4>${book.title}</h4>
-                <p><strong>Publication Date:</strong> ${book.publication_date}</p>
-                <p><strong>Genre:</strong> ${book.genre}</p>
+                <p><strong>Publication Date:</strong> ${book.year_published}</p>
+                <p><strong>Pages:</strong> ${book.pages}</p>
                 <p><strong>Summary:</strong> ${book.summary}</p>
+                <p><strong>Goodreads Score:</strong> ${book.ratings.goodreads}</p>
             `;
             booksDiv.appendChild(bookElement);
         });
