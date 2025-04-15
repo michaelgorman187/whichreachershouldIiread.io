@@ -5,7 +5,7 @@ fetch('reacher.json')
         // Extract JSON data
         const booksDiv = document.getElementById('books');
         const seriesName = data.series;
-        const authorName = data.author;
+        const authorName = booksdiv.author;
         const books = data.books;
 
         // Add the series name and author to the page
