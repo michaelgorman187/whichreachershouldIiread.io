@@ -1,36 +1,30 @@
 {
     "series": "Jack Reacher",
-    "author": "Lee Child",
     "books": [
-      {
-        "title": "Killing Floor",
-        "publication_date": "1997",
-        "genre": "Thriller",
-        "summary": "Jack Reacher investigates a murder in the small town of Margrave, Georgia."
-      },
-      {
-        "title": "Die Trying",
-        "publication_date": "1998",
-        "genre": "Thriller",
-        "summary": "Reacher and a woman are kidnapped and must uncover the conspiracy behind their abduction."
-      },
-      {
-        "title": "Tripwire",
-        "publication_date": "1999",
-        "genre": "Thriller",
-        "summary": "Reacher is drawn into a dangerous investigation involving his mentor's daughter."
-      },
-      {
-        "title": "Running Blind",
-        "publication_date": "2000",
-        "genre": "Thriller",
-        "summary": "Reacher investigates a series of unsettling messages left for women who end up murdered."
-      },
-      {
-        "title": "Echo Burning",
-        "publication_date": "2001",
-        "genre": "Thriller",
-        "summary": "Reacher becomes entangled in a small Texan community's dark secrets."
+     {
+        "title" : "The Killing Floor",
+        "author" : "Lee Child",
+        "year_published" : "01/01/1997",
+        "publish_order" : 1,
+        "date_set" : "After Military",
+        "pages" : "522",
+        "summary" : "Jack does a thing.",
+        "cover" : "https://upload.wikimedia.org/wikipedia/en/3/3c/Killing_floor_by_lee_child_1st_edition_uk.png",
+        "links" : [
+          {
+           "wikipedia" : "https://en.wikipedia.org/wiki/Killing_Floor_(novel)",
+           "amazon" : "www.amazon.com",
+           "goodreads" : "www.goodreads.com",
+           "waterstones" : "www.waterstones.com"
+          }
+        ],
+        "ratings" :  [
+          {
+            "amazon" : "5",
+            "goodreads" : "5",
+            "waterstones" : "5"
+          }
+        ]
       }
     ]
   }
