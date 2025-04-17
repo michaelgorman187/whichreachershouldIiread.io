@@ -3,7 +3,7 @@ fetch('reacher.json')
     .then(response => response.json())
     .then(data => {
         // Extract JSON data
-        //const booksDiv = document.getElementById('books');
+        const booksDiv = document.getElementById('books');
         const seriesName = data.series;
 
         // Add the series name and author to the page
