@@ -11,6 +11,7 @@ fetch('reacher.json')
         seriesHeader.textContent = `Series: ${seriesName}`;
         booksDiv.appendChild(seriesHeader);
 
+        // Add Title and Pages to console
         data.books.forEach((books, index) => {
             console.log(`Book ${index + 1}:`);
             console.log(`Title: ${books.title}`);
@@ -18,5 +19,3 @@ fetch('reacher.json')
             console.log('------------');
         
         });
-
-
