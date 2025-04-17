@@ -1,30 +1,30 @@
 {
-    "series": "Jack Reacher",
-    "books": [
-     {
-        "title" : "The Killing Floor",
-        "author" : "Lee Child",
-        "year_published" : "01/01/1997",
-        "publish_order" : 1,
-        "date_set" : "After Military",
-        "pages" : "522",
-        "summary" : "Jack does a thing.",
-        "cover" : "https://upload.wikimedia.org/wikipedia/en/3/3c/Killing_floor_by_lee_child_1st_edition_uk.png",
-        "links" : [
-          {
-           "wikipedia" : "https://en.wikipedia.org/wiki/Killing_Floor_(novel)",
-           "amazon" : "www.amazon.com",
-           "goodreads" : "www.goodreads.com",
-           "waterstones" : "www.waterstones.com"
-          }
-        ],
-        "ratings" :  [
-          {
-            "amazon" : "5",
-            "goodreads" : "5",
-            "waterstones" : "5"
-          }
-        ]
-      }
-    ]
-  }
+  "series": "Jack Reacher",
+  "books": [
+   {
+      "title" : "The Killing Floor",
+      "author" : "Lee Child",
+      "year_published" : "01/01/1997",
+      "publish_order" : 1,
+      "date_set" : "After Military",
+      "pages" : "522",
+      "summary" : "Jack does a thing.",
+      "cover" : "https://upload.wikimedia.org/wikipedia/en/3/3c/Killing_floor_by_lee_child_1st_edition_uk.png",
+      "links" : [
+        {
+         "wikipedia" : "https://en.wikipedia.org/wiki/Killing_Floor_(novel)",
+         "amazon" : "www.amazon.com",
+         "goodreads" : "www.goodreads.com",
+         "waterstones" : "www.waterstones.com"
+        }
+      ],
+      "ratings" :  [
+        {
+          "amazon" : "5",
+          "goodreads" : "5",
+          "waterstones" : "5"
+        }
+      ]
+    }
+  ]
+}
