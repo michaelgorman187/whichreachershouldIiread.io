@@ -17,5 +17,5 @@ fetch('reacher.json')
             console.log(`Title: ${books.title}`);
             console.log(`Pages: ${books.pages}`);
             console.log('------------');
-        
+            });
         });
