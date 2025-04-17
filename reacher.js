@@ -12,6 +12,5 @@ fetch('reacher.json')
         booksDiv.appendChild(seriesHeader);
         
         });
-    });
-    .catch(error => console.error('Error fetching JSON:', error));
+
 
